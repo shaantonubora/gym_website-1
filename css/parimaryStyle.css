@@ -1522,6 +1522,11 @@ footer .end span a {
         font-size: var(--main-heading-font-size);
         text-align: center;
     }
+    footer #contact > div:nth-child(2) div:nth-child(1) p {
+        text-align: center;
+        color: var(--color2);
+        font-size: var(--secondary-heading-text);
+    }
     footer #contact {
         /* width: 80%;
         margin: auto;
@@ -1529,6 +1534,7 @@ footer .end span a {
         grid-template-columns: 1fr;
         align-items: center;
         justify-content: center;
+        width: 100%;
         
     }
     footer #contact > div {
@@ -1544,6 +1550,11 @@ footer .end span a {
     }
     footer #contact > div  > div {
         align-items: center;
+    }
+    footer #contact > div:nth-child(2) div {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -1636,6 +1647,16 @@ footer .end span a {
         width: 98%;
         /* border: 2px solid red; */
         margin-block: 5.5rem;
+    }
+    main #services .container2  .day-wrapper {
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1rem;
+        margin-block: 1rem;
+        cursor: pointer;
+        padding-inline: 0.8rem;
     }
 }
 
